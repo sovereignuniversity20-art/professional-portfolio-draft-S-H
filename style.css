@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: #08070f;
+  color: #f5e6d3;
+  font-family: Arial, sans-serif;
+}
+
+.book {
+  display: flex;
+  width: 600vw;
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  padding: 4rem;
+  box-sizing: border-box;
+  border: 6px solid #d4a574;
+}
+
+.tabs {
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;    
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tabs a {
+    color: #f5e6d3;
+    background: #1e1b4b;
+    border: 2px solid #d4a574;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
