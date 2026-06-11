@@ -1,8 +1,83 @@
+:root {
+  --font-body:"Exo 2";
+  --font-title:"Bebas Neue";
+  --font-heading: "Faster One";
+  --font-accent: "Zen Dots";
+  --color-bg: #08070f;
+  --color-text: #f5e6d3;
+  --color-gold: #d4a574;
+  --color-purple: #1e1b4b;
+}
+
+.hero-cover {
+  /* styles go here */
+}
+
+.cover {
+  background-image: url('images/cover.png');
+}
+
+.page-1 {
+  background-image: url('images/origin.png');
+    width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  padding: 4rem;
+  box-sizing: border-box;
+  border: 6px solid var(--color-gold);
+}
+
+.page-2 {
+  background-image: url('images/gallery.png');
+    width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  padding: 4rem;
+  box-sizing: border-box;
+  border: 6px solid var(--color-gold);
+}
+
+.page-3 {
+  background-image: url('images/academy.png');
+    width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  padding: 4rem;
+  box-sizing: border-box;
+  border: 6px solid var(--color-gold);
+}
+
+.page-4 {
+  background-image: url('images/code-lab.png');
+    width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  padding: 4rem;
+  box-sizing: border-box;
+  border: 6px solid var(--color-gold);
+}
+
+.page-5 {
+  background-image: url('images/signal.png');
+    width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  padding: 4rem;
+  box-sizing: border-box;
+  border: 6px solid var(--color-gold);
+}
+
 body {
   margin: 0;
-  background: #08070f;
-  color: #f5e6d3;
-  font-family: Arial, sans-serif;
+  background: var(--color-bg);
+  accent-color: var(--color-gold);
+  color: var(--color-text);
+  font-family: var(--font-body);
 }
 
 .book {
@@ -22,7 +97,7 @@ body {
   scroll-snap-align: start;
   padding: 4rem;
   box-sizing: border-box;
-  border: 6px solid #d4a574;
+  border: 6px solid var(--color-gold);
 }
 
 .tabs {
@@ -36,9 +111,9 @@ body {
 }
 
 .tabs a {
-    color: #f5e6d3;
-    background: #1e1b4b;
-    border: 2px solid #d4a574;
+    color: var(--color-text);
+    background: var(--color-purple);
+    border: 2px solid var(--color-gold);
     padding: 0.5rem 0.75rem;
     text-decoration: none;
     font-size: 0.85rem;
