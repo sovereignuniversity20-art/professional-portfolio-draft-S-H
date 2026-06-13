@@ -92,7 +92,49 @@ body {
 .page-1 p {
   position: absolute;
   top: 7vh;
-  left: 25vw;
+  left: 22vw;
+}
+
+.caption {
+  position: absolute;
+  background-color: var(--color-text);
+  border: 3px solid var(--color-purple);
+  padding: 1rem;
+  size: 1rem;
+  font-size: 1.5rem;
+  width: 20vw;
+  max-width: 25vw;
+
+  color: var(--color-bg);
+}
+
+.caption-1 {
+  position: absolute;
+  top: 25vh;
+  left: 20vw;
+  animation: inLeft 2s ease-out forwards;
+ 
+}
+
+.caption-2 {
+  position: absolute;
+  bottom: 10vh;
+  right: 20vw;
+  animation: inRight 2s ease-out forwards;
+}
+
+.panel-1 {
+  position: absolute;
+  bottom: 2vh;
+  left: 20vw;
+  animation: inLeft 2s ease-out forwards;
+}
+
+.panel-2 {
+  position: absolute;
+  top: 25vh;
+  right: 20vw;
+  animation: inRight 2s ease-out forwards;
 }
 
 .page-2 {
@@ -151,6 +193,28 @@ body {
   }  
   to {
     bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes inLeft {
+  from {
+    left: -100vh;
+    opacity: 0;
+  }  
+  to {
+    left: 7;
+    opacity: 1;
+  }
+}
+
+@keyframes inRight {
+  from {
+    right: -100vh;
+    opacity: 0;
+  }  
+  to {
+    right: 7;
     opacity: 1;
   }
 }
