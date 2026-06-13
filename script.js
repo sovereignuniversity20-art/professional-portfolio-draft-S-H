@@ -1,0 +1,1 @@
+const animatedElements = document.querySelectorAll('animate-on-scroll');
