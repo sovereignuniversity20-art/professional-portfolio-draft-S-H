@@ -162,7 +162,96 @@ body {
 }
 
 .page-3 h2 {
+  text-shadow: 0px 2px 5px var(--color-bg);
+}
+
+.welcome {
   text-shadow: 0px 2px 6px var(--color-bg);
+  background-color: var(--color-bg);
+  max-width: fit-content;
+  left: 0vh;
+}
+
+.page-3 p {
+  text-shadow: 0px 2px 6px var(--color-bg);
+  max-width: fit-content;
+}
+
+.classroom {
+  position:relative;
+  cursor: ;
+}
+
+.soccer-ball {
+  top: 48vh;
+  left: 42vw;
+  position:absolute;
+  width: 17px;
+  height: 17px;
+  opacity: 1;
+  background: transparent;
+  cursor: pointer;
+}
+
+.bookshelf {
+  top: 18vh;
+  left: 13vw;
+  position:absolute;
+  width: 72px;
+  height: 177px;
+  opacity: 1;
+  background: transparent;
+  cursor: pointer;
+}
+
+.plants {
+  top: 10vh;
+  left: 25vw;
+  position:absolute;
+  width: 120px;
+  height: 175px;
+  opacity: 1;
+  background: transparent;
+  cursor: pointer;
+}
+
+.board {
+  top: 10vh;
+  right: 17vw;
+  position:absolute;
+  width: 105px;
+  height: 140px;
+  opacity: 1;
+  background: transparent;
+  cursor: pointer;
+  max-height: fit-content;
+ 
+}
+.soccer-ball .popover {
+    top: 15vh;
+    right: 10vw;
+  }
+
+
+.popover {
+  overflow: hidden;
+  top: 0%;
+  left: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-color: var(--color-text);
+  border: 3px solid var(--color-purple);
+  padding: 1rem;
+  font-size: .75rem;
+  color: var(--color-bg);
+  width: 20vw;
+  max-width: 25vw;
+  max-height: 55vh;
+  }
+
+.visible {
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
 .page-4 {
