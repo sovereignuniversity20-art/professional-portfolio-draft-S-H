@@ -10,6 +10,13 @@
   --color-purple: #1e1b4b;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
 .hero-cover {
   position: absolute;
   bottom: -100vh;
