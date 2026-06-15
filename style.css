@@ -108,7 +108,6 @@ body {
   font-size: 1.5rem;
   width: 20vw;
   max-width: 25vw;
-
   color: var(--color-bg);
 }
 
@@ -165,11 +164,14 @@ body {
   text-shadow: 0px 2px 5px var(--color-bg);
 }
 
+
 .welcome {
+  position: absolute;
   text-shadow: 0px 2px 6px var(--color-bg);
   background-color: var(--color-bg);
   max-width: fit-content;
-  left: 0vh;
+  top: 11vh;
+  left: 24vw;
 }
 
 .page-3 p {
@@ -179,7 +181,6 @@ body {
 
 .classroom {
   position:relative;
-  cursor: ;
 }
 
 .soccer-ball {
@@ -191,6 +192,7 @@ body {
   opacity: 1;
   background: transparent;
   cursor: pointer;
+  max-height: 2vh;
 }
 
 .bookshelf {
@@ -225,12 +227,7 @@ body {
   background: transparent;
   cursor: pointer;
   max-height: fit-content;
- 
 }
-.soccer-ball .popover {
-    top: 15vh;
-    right: 10vw;
-  }
 
 
 .popover {
@@ -265,6 +262,44 @@ body {
   text-shadow: 0px 2px 6px var(--color-bg);
 }
 
+.ourstory {
+  top: 22vh;
+  left: 7vw;
+  position:absolute;
+  width: 425px;
+  height: 175px;
+  opacity: 1;
+  background: transparent;
+  cursor: pointer;
+  border: 6px solid var(--color-gold);
+}
+
+.ourstory-screen {
+  position: absolute;
+  top: 15vh;
+  left: 0vw;
+}
+
+.soveu {
+  top: 20vh;
+  right: -27vw;
+  position:absolute;
+  width: 295px;
+  height: 60px;
+  opacity: 1;
+  background: transparent;
+  cursor: pointer;
+  max-height: fit-content;
+  max-width: fit-content;
+  border: 6px solid var(--color-gold);
+}
+
+.soveu-screen {
+  position: absolute;
+  top: 15vh;
+  left: 0vw;
+}
+
 .page-5 {
   background-image: url('images/signal.png');
   position: relative;
@@ -295,13 +330,6 @@ body {
     font-size: 0.85rem;
 }
 
-.animate-on-scroll {
-    opacity:
-}
-
-.animated {
-    opacity: 1;
-}
 
 @keyframes riseUp {
   from {

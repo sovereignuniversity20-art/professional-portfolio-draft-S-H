@@ -1,4 +1,4 @@
-const classRoom = document.querySelectorAll('.soccer-ball, .bookshelf, .plants, .board');
+const classRoom = document.querySelectorAll('.soccer-ball, .bookshelf, .plants, .board, .ourstory, .soveu');
 const popOver = document.querySelectorAll('.popover');
 
 classRoom.forEach(function(hotspot) {
