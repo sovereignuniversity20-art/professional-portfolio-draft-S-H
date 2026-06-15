@@ -122,7 +122,9 @@
                         knowledge globally accessible and engaging.
                         <img class="ourstory-screen" src="images/ourstory-screen.png" alt="imagined screenshot of OurStory site"></p>
                     </div>
-            <div class="soveu">
+            </div>            
+            
+         <div class="soveu">
                     <div class="popover">
                         <p> Building on my localized independent education work Sovereign University, has now evolving from a 
                             microschool/co-op into a distributed learning network anchored in St. Louis, rooted in African-diasporic 
@@ -130,11 +132,91 @@
                             immersive learning paths.
                         <img class="soveu-screen" src="images/soveu-screen.png" alt="screenshot of Sovereign University site"></p>
                     </div>
+        
+            </div>
                    
         </section>
 
         <section class="page page-5" id="How-to-Reach-Me">
             <h2>How to Reach Me</h2>
+            <div class="contact-form">
+                <form>
+        <h4>Enter Details</h4>
+
+        <div class="field-with-label">
+            <label for="name-input">Name</label>
+            <input id="name-input" name="name-input" type="text" 
+            required />
+        </div>
+
+        <div class="field-with-label">
+            <label for="email-input">Email</label>
+            <input id="email-input" name="email-input" type="text" 
+            required />
+        </div>
+
+        <div class="field-with-label">
+            <label for="phone-input">Phone</label>
+            <input id="phone-input" name="phone-input" type="tel" 
+            required />
+
+        </div>
+
+
+        <div class="field-with-label">
+            <fieldset>  
+            <legend>Preferred Contact Method:</legend>  
+            <label for="email"> 
+            <input type="radio" id="email" name="contact" value="email"> 
+        Email  
+            </label>  
+            <label for="phone">  
+            <input type="radio" id="phone" name="contact" value="phone">  
+        Phone  
+            </label>  
+        </fieldset>
+        </div>
+
+        <div class="field-with-label">
+            <fieldset>
+            <legend>Midwest City Location:</legend> 
+            <label for="city">City:</label>  
+            <select id="city" name="city">  
+            <option value="stl">St. Louis, Mo.</option>  
+            <option value="kc">Kansas City, Mo.</option>  
+            <option value="chi">Chicago, Il.</option>  
+            </select>
+            </fieldset>
+        </div>
+
+        <div class="field-with-label">
+            <fieldset>
+            <legend>Areas of Interest (check all that apply):</legend> 
+            <label for="inded-input">Independent Education</label>
+            <input id="inded-input" name="inded-input" type="checkbox" 
+            required />
+            <label for="currdev-input">Curriculum Development</label>
+            <input id="currdev-input" name="currdev-input" type="checkbox" 
+            required />
+            <label for="softdev-input">Software Development</label>
+            <input id="softdev-input" name="softdev-input" type="checkbox" 
+            required />
+            <label for="apparel-input">Apparel Design</label>
+            <input id="apparel-input" name="apparel-input" type="checkbox" 
+            required />
+            </fieldset>
+        </div>
+
+        <div class="field-with-label">
+            <label for="comment-input">Comment</label>
+            <input id="comment-input" name="comment-input" type="text" required />
+        </div>
+
+        <div class="field-with-label">
+            <input type="submit" value="Submit">
+        </div>
+    </form> 
+            </div>
         </section>
     </main>
     <script src="script.js"></script>

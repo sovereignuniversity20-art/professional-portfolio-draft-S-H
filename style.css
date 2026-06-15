@@ -252,6 +252,7 @@ body {
 }
 
 .page-4 {
+  position: relative;
   background-image: url('images/code-lab.png');
   position: relative;
   background-size: cover;
@@ -271,18 +272,18 @@ body {
   opacity: 1;
   background: transparent;
   cursor: pointer;
-  border: 6px solid var(--color-gold);
+  
 }
 
 .ourstory-screen {
   position: absolute;
   top: 15vh;
-  left: 0vw;
+  left: -4vw;
 }
 
 .soveu {
-  top: 20vh;
-  right: -27vw;
+  top: 45vh;
+  right: 27vw;
   position:absolute;
   width: 295px;
   height: 60px;
@@ -291,13 +292,12 @@ body {
   cursor: pointer;
   max-height: fit-content;
   max-width: fit-content;
-  border: 6px solid var(--color-gold);
 }
 
 .soveu-screen {
   position: absolute;
-  top: 15vh;
-  left: 0vw;
+  top: -34vh;
+  left: -4vw;
 }
 
 .page-5 {
@@ -309,6 +309,18 @@ body {
 
 .page-5 h2 {
   text-shadow: 0px 2px 6px var(--color-bg);
+}
+
+.contact-form {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 12vh;
+  left: 25vw;
+  background-color: var(--color-bg);
+  border: 5px solid var(--color-text);
+  padding: 3rem;
+  
 }
 
 .tabs {
